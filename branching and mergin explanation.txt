@@ -1,0 +1,27 @@
+Branching of the git explanation:-
+__________________________________
+what is branching in git?
+
+___e.g: our manager comes and asks us to add a bug fix for the website, the way to solve this problem is to use a feature
+of git called branching, you can think of branching as you are sort of creating a copy of your version history, but then
+you can add commits to the copy instead of your main version history that you had before, and the advantage of this is that
+you can add all the commits that you want to the copy while you are working on the feature, before your feature is done
+and while you are still working on your feature you can add bug fixes to your original version history. this lets you
+create bug fixes and lets you put the bug fixes on your real website, without having your new feature and your work in 
+progress code getting in the way.
+___this feature or branching allows you can work multiple things on the same time, e.g: two or more features at the same time and or a feature and a bug fix
+or even sometimes more than two features.
+
+Merging of the git and explanation:-
+____________________________________
+what is merging in git?
+
+___e.g: we have another problem when we use it branching, we eventually want to combine all of our changes together,
+so let's say that we are working on a feature in a separate branch just like this, we don't really want this feature to be
+in this separate branch forever right? we eventually want to put this feature, as well as a bug fix, all into our code.
+so how do we do that? well git provides us another tool that helps us combine all of these  separate branches. and this
+tool is called merging. merging is actually pretty easy to understand.
+e.g: you have two files you are changing in different positions how can we do merging of these files? we do you are just
+taking the changes of these two files or you just taking changes from one branch and also changes from another branch
+and you just combining the changes together. that is what merging is.
+ 
