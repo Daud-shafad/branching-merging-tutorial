@@ -24,4 +24,19 @@ tool is called merging. merging is actually pretty easy to understand.
 e.g: you have two files you are changing in different positions how can we do merging of these files? we do you are just
 taking the changes of these two files or you just taking changes from one branch and also changes from another branch
 and you just combining the changes together. that is what merging is.
+___in here there is two questions?
+1)where does the result of the merge go? does it go on top of the feature one branch, or does it go on top of the massive
+branch? or does it go somewhere else entirely?
+answer): the answer is that when you merge two branches together, the result will go on to the branch that you are 
+currently working on. and the branch that you are working on you can know it(waxad ku garan kartaa branchka aad joogto) where the head is pointing to.
+which means the branch of the head.
+___so if you merge your branch and master together then the result of that is going to be another commit on top of your branch.
+
+2)where should we put our merge result? should the merge result go on top of the feature one branch, or should it go
+on top of the master branch?
+answer): there is nothing really enforces you to put the merge results on either branche, so git doesn't have really 
+a rules here, but generally within a company if you're working on a team they like to use the main branch or the master
+branch as sort of a final copy of the code that is eventually going to go  to the website, so that is why we want to put
+all of our changes, we want to merge all of our changes back into the master branch. this is sort of the final copy of
+our code.
  
