@@ -1,0 +1,8 @@
+Branching of the git and github explanation:-
+___e.g: our manager comes and asks us to add a bug fix for the website, the way to solve this problem is to use a feature
+of git called branching, you can think of branching as you are sort of creating a copy of your version history, but then
+you can add commits to the copy instead of your main version history that you had before, and the advantage of this is that
+you can add all the commits that you want to the copy while you are working on the feature, before your feature is done
+and while you are still working on your feature you can add bug fixes to your original version history. this lets you
+create bug fixes and lets you put the bug fixes on your real website, without having your new feature and your work in 
+progress code getting in the way.
