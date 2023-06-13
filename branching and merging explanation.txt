@@ -39,4 +39,30 @@ a rules here, but generally within a company if you're working on a team they li
 branch as sort of a final copy of the code that is eventually going to go  to the website, so that is why we want to put
 all of our changes, we want to merge all of our changes back into the master branch. this is sort of the final copy of
 our code.
+
+Merge conflict
+______________
+____
+
+
+
+Feature branch workflow
+________________________
+____this skill of git is to take everything that we learned in this tutorial and it is going to combine it all together into
+a sort of process of how we should use git and github. this is the last skill you gonna be a professional level of git and github.
+____ a feature branch is a worflow or a step by step process for using git and github.
+____so we already know a little bit about features branches, when we first learned about branching, we that branches allow
+us to work on two different things at the same time, so when we create a new feature, we create a branch for that feature
+first, and then we put all of our commits for that feature on the new branch, so we typically call this new branch 
+a feature branch. and that is where we get the name of the workflow from. 
+____ so there is one other problem that we havenot solved here, and that problem is code reviews, basically when you are
+working on a new feature, before that feature goes into your website, you need another software engineer to look at your
+code, it is helpful for them to spot maybe mistakes that you made or if there are any bugs in your code, so how do we use.
+git and github to do code reviews, this is part of the feature branch workflow, that is going to solve this problem so
+we already learned the first part of the workflow, which is creating a branch for our feature. we call this the feature branch.
+and the next thing we are going to do is we are going to upload this branch to github. remember that ourgithub is our remote repository
+it not only contains the copy of our code it also contains a copy of our version history, this means that we can also upload
+part of our version history on our computer to github. the reason that we upload to github is the other engineers are see our code now.
+that is helps us code reviews.
+
  
