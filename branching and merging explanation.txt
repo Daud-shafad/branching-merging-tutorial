@@ -64,5 +64,20 @@ and the next thing we are going to do is we are going to upload this branch to g
 it not only contains the copy of our code it also contains a copy of our version history, this means that we can also upload
 part of our version history on our computer to github. the reason that we upload to github is the other engineers are see our code now.
 that is helps us code reviews.
+____in here a pull request for github basically takes your branch or your feature branch  and it compares it to master
+and it initiates a code review, so it lets other people look at your code.
 
+
+Merge conflicts in feature branch workflow
+___________________________________________
+____ so we are going to look at an overview of a very common situation, so there are two engineers and they are both working
+ on different features, so engineer one is going to create a feature branch called feature one, and engineer two creates
+a feature branch called feature two. now in these branches lets say that they both change the same file and the same line,
+so this is going to create a merge conflict, so engineer one uploads their branch to github, engineer two also uploads
+their branch to github, now engineer one is going to create the pull request, as we explained in the feature branch workflow,
+that is going to get reviewed and then they are going to merge their branch into master, there is not going to be a 
+conflict here because master doesnot have any new changes so there are no merge conflicts, but now when engineer two tries
+to merge their branch into master there is going to be a merge conflict because there is a new change that changes the same file
+and the same line as their own branch, and that is going result in a conflict. so this is where a merge conflict can occur
+in the feature branch workflow.
  
